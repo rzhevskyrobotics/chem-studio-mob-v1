@@ -65,7 +65,7 @@ Data exchange is divided into two channels:
 -   **REST API (HTTPS)** --- authentication and configuration
 -   **MQTT (TCP)** --- real-time telemetry and control commands
 
-![Hardware Schema](media\hw_sch_1.png)
+![Hardware Schema](media/hw_sch_1.png)
 
 ------------------------------------------------------------------------
 
@@ -84,7 +84,7 @@ handling
 **Model / Data Layer** - Repository - Retrofit API client - MQTT Manager
 (Paho) - Room (local storage)
 
-![MVVM](media\MVVM.png)
+![MVVM](media/MVVM.png)
 
 ------------------------------------------------------------------------
 
