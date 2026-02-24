@@ -40,7 +40,6 @@ class MqttManagerClient : MqttClient {
     }
 
     override suspend fun publish(topic: String, payload: String) {
-        // fire-and-forget (как у тебя и было)
         MqttManager.publish(
             topic = topic,
             payload = payload,
@@ -52,4 +51,5 @@ class MqttManagerClient : MqttClient {
     override fun disconnect() {
         MqttManager.disconnect()
     }
+
 }
