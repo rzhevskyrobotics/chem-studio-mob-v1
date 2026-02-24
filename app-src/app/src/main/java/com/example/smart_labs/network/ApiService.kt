@@ -26,7 +26,6 @@ object ApiClient {
     private const val BASE_URL = "https://smartlabs.rzhevskyrobotics.com/"
 
     private val logging = HttpLoggingInterceptor().apply {
-        // В релизе можно поставить NONE
         level = HttpLoggingInterceptor.Level.BODY
     }
 
@@ -43,3 +42,4 @@ object ApiClient {
             .create(ApiService::class.java)
     }
 }
+
